@@ -46,12 +46,12 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.1'
 
     //network
-    implementation 'com.squareup.retrofit2:retrofit2:retrofit:2.9.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-    implementation 'com.squareup.okhttp3:logging-interceptor:4.8.1'
+    implementation 'com.squareup.retrofit2:retrofit2:retrofit:2.9.0' //main Retrofit
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0' //Converter Retrofit (digunakan untuk mencovert JSON)
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.8.1' //Log debugging
 
     //Glide
-    implementation "com.github.bumptech.glide:glide:4.10.0"
+    implementation "com.github.bumptech.glide:glide:4.10.0" //Untuk image
 
     //loading
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
